@@ -69,10 +69,9 @@ modules. They are explained one by one.
 <br><br>The advancements in the field of deep learning and emotion recognition has been increasing in the recent past. The work presents a model framework that understands the emotion depicted on the face and from the voice. The primary goal of this work 18 remains to improve human-computer cooperation. Hood frontal face images and various voice cuts are provided by the model system. From the Image database FER2013, 25838 samples were used for training and 90 samples of Amrita Emote database (ADB) for testing. The speech database consists of four different datasets, with a total of 20,000 examples. 3/4 of this information is used to prepare and 1/4 of the information used is for testing. Intermittent neural networks (RNNs) and traditional neural networks (CNNs) are nervous system-based projects that use speech and image management to control emotions: pleasure, sadness, anger, hatred, surprise, and fear.
 
 <p align="center">
-
-![Image](Images_In_README/EmotionClassification.PNG)
-
+  <img src="Images_In_README/EmotionClassification.PNG" alt="Image" />
 </p>
+
 <br><h2 align="center">Deep Learning </h2>
 <br><br>Deep learning (also known as deep structured learning) is part of a broader family of machine learning methods based on artificial neural networks with representation learning. Learning can be supervised, semi-supervised or unsupervised. 
 <br>Deep-learning architectures such as deep neural networks, deep belief networks, graph neural networks, recurrent neural networks and convolutional neural networks have been applied to fields including computer vision, speech recognition, natural language processing, machine translation, bioinformatics, drug design, medical image analysis, material inspection and board game programs, where they have produced results comparable to and in some cases surpassing human expert performance.
