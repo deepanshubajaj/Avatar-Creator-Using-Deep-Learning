@@ -11,10 +11,9 @@
 <br>Nowadays, almost every person ranges from all age groups and occupations are frequently using emoji to add emotional elements to their chat, which helps others understand their feelings. Compared to pure literalness, emoji contribute to connect people together and promote relationships within friends, lovers, and families. Thus, it inspired us to make an application that can convert a person’s facial expression into his Avatar which will enhance the user experience of chatting and the study was backed by varying research papers.
 
 <p align="center">
-
-![Image](Images_In_README/EmojiClassificationWithEmotions.PNG)
-
+  <img src="Images_In_README/EmojiClassificationWithEmotions.PNG" alt="Image" />
 </p>
+
 
 <p><h2 align="center">LIBRARY SPECIFICATIONS </h2>
 <br>i) Python = 3.7
@@ -45,26 +44,23 @@ modules. They are explained one by one.
 <br>Stock emojis and emoticons designed by artists are fun but lack the personalization many are seeking in the expanding emoji marketplace. More and more social apps are now leveraging AI technologies such as machine learning, deep neural networks, and facial recognition to enable users to create highly-individualized emojis from selfies and photos. Thus we are going to take the coordinates of the person’s face and since we have classified the emotion as well we can map that to the emoji and make our own avatar based on the coordinates of that person’s facial expression.
 
 <p align="center">
-
-![Image](Images_In_README/SampleFormationOfAvatars.PNG)
-
+  <img src="Images_In_README/SampleFormationOfAvatars.PNG" alt="Image" />
 </p>
+
 <br><br><h2 align="center">CONNECTED LAYERS </h2>
 <p align="center">
-
-![Image](Images_In_README/ConnectedLayers.PNG)
-
+  <img src="Images_In_README/ConnectedLayers.PNG" alt="Image" />
 </p>
+
 <br><h2 align="center">Face Recognition </h2>
 <br><br>Facial Detection and recognition research has been widely studied in recent years. Its applications play an important role in many areas such as security, camera surveillance, identity verification in modern electronic devices, criminal investigations, database management systems, and smart card applications, etc. First of all, we need to detect the face from images. An image is relatively large and contains some disturbance pixel data other than the face which is the only one we’re interested in. If we perform face detection first, it is able to reduce data size and make features of the face more manifest which helps to produce a better classifier. Without the interference of unnecessary pixel data, during the training process, it can quickly recognize features of each expression class. We will first download the dataset and make a simple CNN and train our model on the training dataset. 
 <br>A facial recognition system is a technology capable of matching a human face from a digital image or a video frame against a database of faces, typically employed to authenticate users through ID verification services, works by pinpointing and measuring facial features from a given image. 
 <br>While initially a form of computer application, facial recognition systems have seen wider uses in recent times on smartphones and in other forms of technology, such as robotics.
 
 <p align="center">
-
-![Image](Images_In_README/FaceRecognition.PNG)
-
+  <img src="Images_In_README/FaceRecognition.PNG" alt="Image" />
 </p>
+
 <br><h2 align="center">Classification Of Emotions </h2>
 <br><br>The advancements in the field of deep learning and emotion recognition has been increasing in the recent past. The work presents a model framework that understands the emotion depicted on the face and from the voice. The primary goal of this work 18 remains to improve human-computer cooperation. Hood frontal face images and various voice cuts are provided by the model system. From the Image database FER2013, 25838 samples were used for training and 90 samples of Amrita Emote database (ADB) for testing. The speech database consists of four different datasets, with a total of 20,000 examples. 3/4 of this information is used to prepare and 1/4 of the information used is for testing. Intermittent neural networks (RNNs) and traditional neural networks (CNNs) are nervous system-based projects that use speech and image management to control emotions: pleasure, sadness, anger, hatred, surprise, and fear.
 
@@ -84,10 +80,9 @@ modules. They are explained one by one.
 <br><br>3. Output Layer: The output from the hidden layer is then fed into a logistic function like sigmoid or softmax which converts the output of each class into probability score of each class.The data is then fed into the model and output from each layer is obtained this step is called feedforward, we then calculate the error using an error function, some common error functions are cross entropy, square loss error etc. After that, we backpropagate into the model by calculating the derivatives. This step is called Backpropagation which basically is used to minimize the loss.
 
 <p align="center">
-
-![Image](Images_In_README/CNNLayersUnderstanding.PNG)
-
+  <img src="Images_In_README/CNNLayersUnderstanding.PNG" alt="Image" />
 </p>
+
 <br><h2 align="center">HAAR Cascade Classifier </h2>
 <br><br>Haar Cascade classifiers are an effective way for object detection. This method was proposed by Paul Viola and Michael Jones in their paper Rapid Object Detection using a Boosted Cascade of Simple Features .Haar Cascade is a machine learning based approach where a lot of positive and negative images are used to train the classifier. 
 <br>Positive Images – These images contain the images which we want our classifier to identify. 
@@ -96,48 +91,46 @@ modules. They are explained one by one.
 <br>Here we will work with face detection. Initially, the algorithm needs a lot of positive images (images of faces) and negative images (images without faces) to train the classifier. Then we need to extract features from it. For this, Haar features shown in the below image are used. They are just like our convolutional kernel. Each feature is a single value obtained by subtracting sum of pixels under the white rectangle from sum of pixels under the black rectangle.
 
 <p align="center">
-
-![Image](Images_In_README/HaarCascade.PNG)
-
+  <img src="Images_In_README/HaarCascade.PNG" alt="Image" />
 </p>
+
 <br><h2 align="center">TKinter for User Interface (UI) </h2>
 <br><br>Python offers multiple options for developing GUI (Graphical User Interface). Out of all the GUI methods, tkinter is the most commonly used method. It is a standard Python interface to the Tk GUI toolkit shipped with Python. Python with tkinter is the fastest and easiest way to create the GUI applications. Creating a GUI using tkinter is an easy task. Tkinter is the standard GUI library for Python. Python when combined with Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit.
 
 <p align="center">
-
-![Image](Images_In_README/tkinter.PNG)
-
+  <img src="Images_In_README/tkinter.PNG" alt="Image" />
 </p>
+
 <p><h2 align="center">PROJECT OUTPUTS </h2>
 <br><br>Actual Results performed on actual person :<br><br>
-<p align="center">
+
 <!-- Project Outputs -->
-
-![ProjectOutput](Sample_Outputs_Of_Project/ProjectOutput1.PNG)
-</p>
 <p align="center">
-
-![ProjectOutput](Sample_Outputs_Of_Project/ProjectOutput2.PNG)
+  <img src="Sample_Outputs_Of_Project/ProjectOutput1.PNG" alt="Project Output" />
 </p>
-<p align="center">
 
-![ProjectOutput](Sample_Outputs_Of_Project/ProjectOutput3.PNG)
+<p align="center">
+  <img src="Sample_Outputs_Of_Project/ProjectOutput2.PNG" alt="Project Output" />
 </p>
-<p align="center">
 
-![ProjectOutput](Sample_Outputs_Of_Project/ProjectOutput4.PNG)
+<p align="center">
+  <img src="Sample_Outputs_Of_Project/ProjectOutput3.PNG" alt="Project Output" />
 </p>
-<p align="center">
 
-![ProjectOutput](Sample_Outputs_Of_Project/ProjectOutput5.PNG)
+<p align="center">
+  <img src="Sample_Outputs_Of_Project/ProjectOutput4.PNG" alt="Project Output" />
+</p>
+
+<p align="center">
+  <img src="Sample_Outputs_Of_Project/ProjectOutput5.PNG" alt="Project Output" />
 </p>
 
 <br><h2 align="center">CONCLUSION </h2>
 <br><br>Artificial Intelligence may be used to handle interesting tasks like emotion identification, yet this work is made considerably more difficult when a large number of photographs are employed. We humans, like our programme, make mistakes when it comes to understanding someone's sentiment. The highest level of accuracy was about 83 percent. Using Python 2.7, OpenCV & (CK and CK+) Database we were able to distinguish several sorts of human emotions in the current project.
 
 <p align="center">
-
-![Image](Images_In_README/SampleEmoji.PNG)
+  <img src="Images_In_README/SampleEmoji.PNG" alt="Image" />
 </p>
+
 
 <br><h1 align="center">------------------------- END ------------------------ </h1>
